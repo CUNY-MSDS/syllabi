@@ -1,0 +1,25 @@
+---
+title: "Syllabi for courses in the CUNY SPS Master's of Data Science program"
+date: "`r paste(params$semester, params$year)`"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+params:
+  semester: "Spring"
+  year: "2021"
+---
+
+```{r, echo=FALSE, error=FALSE, warning=FALSE, message=FALSE, results='asis'}
+library(rmarkdown)
+
+courses <- list.files(pattern = 'DATA*')
+for(i in courses) {
+	y <- yaml_front_matter(paste0(i, '/', i, '.Rmd'))
+	file <- paste0(i, '/', i, '-', params$year, '-', params$semester, '.md')
+	if(file.exists(file)) {
+		cat(paste0('* [', y$title, '](', file, ')\n'))
+	} else {
+		cat(y$title)
+	}
+}
+```

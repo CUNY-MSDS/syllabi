@@ -1,0 +1,61 @@
+---
+title: "DATA 606 Statistics & Probability for Data Analytics"
+output:
+  html_document:
+    toc: false
+    keep_md: true
+  pdf_document: default
+editor_options: 
+  chunk_output_type: console
+params:
+  semester: "SEMESTER"
+  year: "YEAR"
+---
+
+`r paste(params$semester, params$year)`
+
+**Instructor:**  
+**Class Meetup:**   
+**Office Hours:**   
+**Email:** 
+
+
+### Course Description
+
+
+
+### Course Learning Outcomes:
+
+
+
+### Program Learning Outcomes addressed by the course:
+
+
+
+### How is this course relevant for data analytics professionals?
+
+
+
+### Grading
+
+
+
+
+```{r, child='../includes/grade_distribution.md'}
+```
+
+### How This Course Works
+
+
+
+```{r, child='../includes/accessibility.md'}
+```
+
+```{r, child='../includes/online_etiquette.md'}
+```
+
+```{r, child='../includes/academic_integrity.md'}
+```
+
+```{r, child='../includes/support_services.md'}
+```
