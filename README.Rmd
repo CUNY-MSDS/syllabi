@@ -15,7 +15,9 @@ library(rmarkdown)
 courses <- list.files(pattern = 'DATA*')
 for(i in courses) {
 	y <- yaml_front_matter(paste0(i, '/', i, '.Rmd'))
-	file <- paste0(i, '/', i, '-', params$year, '-', params$semester, '.md')
+	file <- paste0(i, '/', i, '-', params$year, '-', params$semester, '.html')
+	url <- paste0('https://htmlpreview.github.io/?https://github.com/CUNY-MSDS/syllabi/blob/main/',
+				   file , ')')
 	if(file.exists(file)) {
 		cat(paste0('* [', y$title, '](', file, ')\n'))
 	} else {
