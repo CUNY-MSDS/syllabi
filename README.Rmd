@@ -19,7 +19,7 @@ for(i in courses) {
 	url <- paste0('https://htmlpreview.github.io/?https://github.com/CUNY-MSDS/syllabi/blob/main/',
 				   file , ')')
 	if(file.exists(file)) {
-		cat(paste0('* [', y$title, '](', file, ')\n'))
+		cat(paste0('* [', y$title, '](', url, ')\n'))
 	} else {
 		cat(y$title)
 	}
