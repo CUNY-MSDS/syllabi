@@ -1,26 +1,12 @@
-library(knitr)
-library(rmarkdown)
 
 semester <- 'Spring'
 year <- 2021
+quiet <- TRUE
 
-courses <- list.files(pattern = 'DATA*')
-for(i in courses) {
-	rmd <- paste0(i, '/', i, '.Rmd')
-	rmarkdown::render(
-		input = rmd,
-		output_format = 'html_document',
-		output_file = paste0(i, '-', year, '-', semester),
-		output_dir = i,
-		params = list(semester = semester,
-					  year = year))
+source('build_syllabi.R')
 
-	rmarkdown::render(
-		input = rmd,
-		output_format = 'pdf_document',
-		output_file = paste0(i, '-', year, '-', semester),
-		output_dir = i,
-		params = list(semester = semester,
-					  year = year))
+build_syllabi(c('DATA606', 'DATA607'),
+			  semester = 'Spring', year = 2021)
 
-}
+
+

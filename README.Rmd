@@ -9,19 +9,42 @@ params:
   year: "2021"
 ---
 
+[CUNY SPS MSDS Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
+
 ```{r, echo=FALSE, error=FALSE, warning=FALSE, message=FALSE, results='asis'}
 library(rmarkdown)
+library(tidyverse)
 
-courses <- list.files(pattern = 'DATA*')
-for(i in courses) {
-	y <- yaml_front_matter(paste0(i, '/', i, '.Rmd'))
-	file <- paste0(i, '/', i, '-', params$year, '-', params$semester, '.html')
-	url <- paste0('https://htmlpreview.github.io/?https://github.com/CUNY-MSDS/syllabi/blob/main/',
-				   file)
-	if(file.exists(file)) {
-		cat(paste0('* [', y$title, '](', url, ')\n'))
-	} else {
-		cat(y$title)
+semesters <- list.dirs('docs', recursive = FALSE) 
+semesters <- data.frame(
+	year = substr(semesters, 6, 9),
+	semester = substr(semesters, 10, nchar(semesters))
+)
+semesters$semester <- factor(semesters$semester, 
+							 levels = c('Spring', 'Fall'),
+							 ordered = TRUE)
+semesters <- semesters %>% dplyr::arrange(desc(year), desc(semester))
+
+for(j in 1:nrow(semesters)) {
+	year <- semesters[j,]$year
+	semester <- semesters[j,]$semester
+	courses <- list.files(paste0('docs/', year, semester),
+						  pattern = paste0(year, '-', semester, '.html'))
+	courses <- substr(courses, 1, 7)
+
+	cat(paste0('### ', semester, ' ', year, '\n\n'))
+	
+	for(i in courses) {
+		y <- yaml_front_matter(paste0(i, '/', i, '.Rmd'))
+		html_file <- paste0('docs/', year, semester, '/', i, '-', year, '-', semester, '.html')
+		pdf_file <- paste0('docs/', year, semester, '/', i, '-', year, '-', semester, '.pdf')
+		html_url <- paste0('https://htmlpreview.github.io/?https://github.com/CUNY-MSDS/syllabi/blob/main/',
+					   html_file)
+		if(file.exists(html_file)) {
+			cat(paste0('* [', y$title, '](', html_url, ') ([PDF](', pdf_file, '))\n'))
+		} else {
+			cat(y$title)
+		}
 	}
 }
 ```

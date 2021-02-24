@@ -1,6 +1,8 @@
 ---
 title: "DATA 606 Statistics & Probability for Data Analytics"
+author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
+geometry: margin=0.75in
 output:
   html_document:
     toc: false
@@ -13,10 +15,19 @@ params:
   year: "YEAR"
 ---
 
+```{r setup, echo=FALSE, warning = FALSE, message = FALSE, error = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE, message = FALSE, error = FALSE, 
+  fig.width = 6.5, fig.height=4, fig.align = 'center',
+  digits = 3) 
+```
+
 **Instructor:** Jason Bryer, Ph.D.  
 **Class Meetup:** Wednesday 8:30pm to 9:30pm  
 **Office Hours:** Friday 12pm to 1pm & by appointment  
-**Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)
+**Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)  
+**Website::** [`r paste0(tolower(params$semester), params$year, '.data606.net')`](`r paste0('https://', tolower(params$semester), params$year, '.data606.net')`)
 
 
 ### Course Description
@@ -74,20 +85,9 @@ The culmination of the course will be the presentation of the analysis of a data
 *Note: Schedule is subject to change.*
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
-course_schedule <- readxl::read_excel('DATA606.xlsx')
-schedule <- readxl::read_excel(paste0('../Schedules/', params$year, '-', params$semester, '.xlsx'))
-course_schedule$End_Week <- course_schedule$Week + (course_schedule$Duration - 1)
-course_schedule <- merge(course_schedule, schedule[,c('Week', 'Start')],
-                         by = 'Week', all.x = TRUE)
-course_schedule <- merge(course_schedule, schedule[,c('Week', 'End')],
-                         by.x = 'End_Week', by.y = 'Week', all.x = TRUE)
-
-course_schedule$Dates <- paste0(format(course_schedule$Start, '%b %d, %Y'), ' to ',
-                                format(course_schedule$End, '%b %d, %Y'))
-knitr::kable(course_schedule[,c('Topic', 'Dates')], row.names = FALSE)
+source('../build_schedule.R')
+build_schedule('DATA606.xlsx', year = params$year, semester = params$semester)
 ```
-
-
 
 ```{r, child='../includes/accessibility.md'}
 ```

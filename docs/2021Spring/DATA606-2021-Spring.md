@@ -1,6 +1,8 @@
 ---
 title: "DATA 606 Statistics & Probability for Data Analytics"
+author: "CUNY SPS Master of Science in Data Science"
 date: "Spring 2021"
+geometry: margin=0.75in
 output:
   html_document:
     toc: false
@@ -13,10 +15,13 @@ params:
   year: "YEAR"
 ---
 
+
+
 **Instructor:** Jason Bryer, Ph.D.  
 **Class Meetup:** Wednesday 8:30pm to 9:30pm  
 **Office Hours:** Friday 12pm to 1pm & by appointment  
-**Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)
+**Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)  
+**Website::** [spring2021.data606.net](https://spring2021.data606.net)
 
 
 ### Course Description
@@ -84,21 +89,56 @@ The culmination of the course will be the presentation of the analysis of a data
 
 *Note: Schedule is subject to change.*
 
-
-|Topic                                      |Dates                        |
-|:------------------------------------------|:----------------------------|
-|Chapter 1 - Intro to Data, R, and Rstudio  |Jan 29, 2021 to Feb 07, 2021 |
-|Chatper 2 - Summarizing Data               |Feb 08, 2021 to Feb 14, 2021 |
-|Chapter 3 - Probability                    |Feb 15, 2021 to Feb 21, 2021 |
-|Chapter 4 - Distributions                  |Feb 22, 2021 to Mar 07, 2021 |
-|Chatper 5 - Foundation for Inference       |Mar 08, 2021 to Mar 14, 2021 |
-|Chapter 6 - Inference for Categorical Data |Mar 15, 2021 to Mar 21, 2021 |
-|Chapter 7 - Inference for Numerical Data   |Mar 22, 2021 to Apr 04, 2021 |
-|Chapter 8 - Linear Regression              |Apr 05, 2021 to Apr 18, 2021 |
-|Chapter 9 - Multiple & Logistic Regression |Apr 19, 2021 to May 02, 2021 |
-|Intro to Bayesian Analysis                 |May 03, 2021 to May 16, 2021 |
-
-
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Dates </th>
+   <th style="text-align:left;"> Topic </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Jan-29 to Feb-07 </td>
+   <td style="text-align:left;"> Chapter 1 - Intro to Data, R, and Rstudio </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Feb-08 to Feb-14 </td>
+   <td style="text-align:left;"> Chatper 2 - Summarizing Data </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Feb-15 to Feb-21 </td>
+   <td style="text-align:left;"> Chapter 3 - Probability </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Feb-22 to Mar-07 </td>
+   <td style="text-align:left;"> Chapter 4 - Distributions </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mar-08 to Mar-14 </td>
+   <td style="text-align:left;"> Chatper 5 - Foundation for Inference </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mar-15 to Mar-21 </td>
+   <td style="text-align:left;"> Chapter 6 - Inference for Categorical Data </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mar-22 to Apr-04 </td>
+   <td style="text-align:left;"> Chapter 7 - Inference for Numerical Data </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Apr-05 to Apr-18 </td>
+   <td style="text-align:left;"> Chapter 8 - Linear Regression </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Apr-19 to May-02 </td>
+   <td style="text-align:left;"> Chapter 9 - Multiple &amp; Logistic Regression </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> May-03 to May-16 </td>
+   <td style="text-align:left;"> Intro to Bayesian Analysis </td>
+  </tr>
+</tbody>
+</table>
 
 
 ### Accessibility and Accommodations
