@@ -2,7 +2,6 @@
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
   DATA 606 Statistics & Probability for Data Analytics
-author: "CUNY SPS Master of Science in Data Science"
 date: "Spring 2021"
 geometry: margin=0.75in
 output:
