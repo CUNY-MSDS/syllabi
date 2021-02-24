@@ -1,12 +1,8 @@
 ---
 title: "Syllabi for courses in the CUNY SPS Master's of Data Science program"
-date: "`r paste(params$semester, params$year)`"
 output: github_document
 editor_options: 
   chunk_output_type: console
-params:
-  semester: "Spring"
-  year: "2021"
 ---
 
 [CUNY SPS MSDS Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
@@ -41,10 +37,15 @@ for(j in 1:nrow(semesters)) {
 		html_url <- paste0('https://htmlpreview.github.io/?https://github.com/CUNY-MSDS/syllabi/blob/main/',
 					   html_file)
 		if(file.exists(html_file)) {
-			cat(paste0('* [', y$title, '](', html_url, ') ([PDF](', pdf_file, '))\n'))
+			cat(paste0('* [', y$title, '](', pdf_file, ')\n'))
 		} else {
 			cat(y$title)
 		}
+		# if(file.exists(html_file)) {
+		# 	cat(paste0('* [', y$title, '](', html_url, ') ([PDF](', pdf_file, '))\n'))
+		# } else {
+		# 	cat(y$title)
+		# }
 	}
 }
 ```
