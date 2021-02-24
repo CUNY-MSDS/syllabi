@@ -1,5 +1,5 @@
 ---
-title: "DATA 607 COURSE TITLE"
+title: "DATA 607 Data Acquisition and Management"
 author: "CUNY SPS Master of Science in Data Science"
 date: "Spring 2021"
 geometry: margin=0.75in
