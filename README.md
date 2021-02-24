@@ -15,6 +15,82 @@ Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
 
 ## Notes for Instructors
 
+Each course, located in a folder `DATAXXX` where `XXX` is the course
+number, should have at minimum two files:
+
+-   `DATAXXX.Rmd` - the main document for the syllabus. I recommend
+    starting with the provided [Template.Rmd](Template.Rmd) file.
+-   `DATAXXX.xlsx` - an Excel file with at least three columns:
+    -   `Week` - the week number (1 through 14)
+    -   `Duration` - the number of weeks that unit extends. For example,
+        if each unit is two weeks, then `Week`s should be set to 1, 3,
+        5, etc. and `Duration` would be 2.
+    -   `Topic` - a description of that unit.
+    -   You can include additional columns (e.g. readings) as
+        appropriate. See the *Including the Schedule* details below on
+        how to include those columns in the syllabus.
+
+[R Markdown](https://rmarkdown.rstudio.com) is a special version of
+[Markdown](https://daringfireball.net/projects/markdown/) that allows
+the combination of R code and text.
+
+##### Common Sections
+
+There are a number of files in the `includes` directory for parts of the
+syllabus that are common for all syllabi.
+
+-   `academic_integrity.md`
+-   `accessibility.md`
+-   `grade_distribution.md`
+-   `online_etiquette.md`
+-   `support_services.md`
+
+These can be included into your syllabus using the following syntax
+(replacing the filename with one of the files listed above):
+
+```` markdown
+```{r, child='../includes/accessibility.md'}
+```
+````
+
+##### Including the Schedule
+
+The R chunk below will build the schedule table for the Excel file
+specified. This function merges the course schedule, specified with
+weeks, to the master schedule which has date ranges for the given
+semester. This function will also build an appropriate for the output
+format (i.e. HTML or PDF).
+
+```` markdown
+```{r}
+source('../build_schedule.R')
+build_schedule('DATAXXX.xlsx', year = params$year, semester = params$semester)
+```
+````
+
+##### Building Your Syllabus
+
+The easiest way to build your syllabus to check for formatting issues is
+to use the `build_syllabi` function. The following commands will build
+the syllabus for the Spring 2021 semester (you may build for any
+semester that has a schedule in the `Schedules` folder).
+
+``` r
+source('build_syllabi.R')
+build_syllabi('DATAXXX', semester = 'Spring', year = 2021)
+```
+
+By default, the syllabus will be built into the `docs/2021Spring/`
+folder, however you can override this by specifying the `out_dir`
+parameter. This function will be build four versions of the sylabus:
+
+-   A plain markdown version (`.md`).
+-   An HTML version (`.html`).
+-   A partial HTML version (`_partial.html`) which does not include
+    header of footer information that is appropriate to embed in another
+    website.
+-   A PDF version (`.pdf`)
+
 ## Notes for Adminstrators
 
 The `Schedules` folder should contain an Excel file for each semester.

@@ -1,5 +1,7 @@
 ---
-title: "DATA XXX COURSE TITLE"
+title:  |
+  ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
+  DATA XXX COURSE TITLE
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
@@ -23,10 +25,14 @@ knitr::opts_chunk$set(
   digits = 3) 
 ```
 
-**Instructor:**  
+**Instructor Name:**  
+**Instructor Email:**  
 **Class Meetup:**   
 **Office Hours:**   
-**Email:** 
+**Degree Program:** M.S. in Data Science  
+**Credits:** 3 graduate credits  
+**Prerequisites:** None  
+**Type of Course:** Required course  
 
 
 ### Course Description

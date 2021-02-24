@@ -1,6 +1,7 @@
 ---
-title: "DATA 607 Data Acquisition and Management"
-author: "CUNY SPS Master of Science in Data Science"
+title: |
+  ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
+  DATA 607 Data Acquisition and Management
 date: "Spring 2021"
 geometry: margin=0.75in
 output:
@@ -17,10 +18,14 @@ params:
 
 
 
-**Instructor:** Andrew Catlin  
+**Instructor Name:** Andrew Catlin  
+**Instructor Email:** [andrew.catlin@sps.cuny.edu](mailto:andrew.catlin@sps.cuny.edu)  
 **Class Meetup:** Wednesdays 6:45pm  
 **Office Hours:** by appointment  
-**Email:** [andrew.catlin@sps.cuny.edu](mailto:andrew.catlin@sps.cuny.edu)
+**Degree Program:** M.S. in Data Science  
+**Credits:** 3 graduate credits  
+**Prerequisites:** None  
+**Type of Course:** Required course  
 
 
 ### Course Description

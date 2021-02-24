@@ -1,5 +1,7 @@
 ---
-title: "DATA 606 Statistics & Probability for Data Analytics"
+title:  |
+  ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
+  DATA 606 Statistics & Probability for Data Analytics
 author: "CUNY SPS Master of Science in Data Science"
 date: "Spring 2021"
 geometry: margin=0.75in
@@ -17,10 +19,14 @@ params:
 
 
 
-**Instructor:** Jason Bryer, Ph.D.  
+**Instructor Name:** Jason Bryer, Ph.D.  
+**Instructor Email:** [andrew.catlin@sps.cuny.edu](mailto:andrew.catlin@sps.cuny.edu)  
 **Class Meetup:** Wednesday 8:30pm to 9:30pm  
 **Office Hours:** Friday 12pm to 1pm & by appointment  
-**Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)  
+**Degree Program:** M.S. in Data Science  
+**Credits:** 3 graduate credits  
+**Prerequisites:** None  
+**Type of Course:** Required course  
 **Website::** [spring2021.data606.net](https://spring2021.data606.net)
 
 
