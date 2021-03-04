@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 ```
 
 **Instructor Name:** Jason Bryer, Ph.D.  
-**Instructor Email:** [andrew.catlin@sps.cuny.edu](mailto:andrew.catlin@sps.cuny.edu)  
+**Instructor Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)  
 **Class Meetup:** Wednesday 8:30pm to 9:30pm  
 **Office Hours:** Friday 12pm to 1pm & by appointment  
 **Degree Program:** M.S. in Data Science  

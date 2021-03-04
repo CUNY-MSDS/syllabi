@@ -6,6 +6,9 @@ editor_options:
 ---
 
 [CUNY SPS MSDS Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
+* [Spring 2021](https://sps.cuny.edu/academics/academic-calendar/2020-2021-calendar/spring-2021)
+* [Fall 2021](https://sps.cuny.edu/academics/academic-calendar/2021-2022-calendar/fall-2021)
+
 
 ## Syllabi by Semester
 
