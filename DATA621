@@ -1,0 +1,2 @@
+source('build_syllabi.R')
+build_syllabi('DATA621', semester = 'Spring', year = 2021)
