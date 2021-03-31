@@ -1,8 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA XXX COURSE TITLE
-author: "CUNY SPS Master of Science in Data Science"
+  DATA 602 Advanced Programming Techniques
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
 output:
@@ -25,8 +24,8 @@ knitr::opts_chunk$set(
   digits = 3) 
 ```
 
-**Instructor Name:**  
-**Instructor Email:**  
+**Instructor Name:** Jamiel LASTNAME  
+**Instructor Email:** [jason.bryer@cuny.edu](mailto:jason.bryer@cuny.edu)  
 **Class Meetup:**   
 **Office Hours:**   
 **Degree Program:** M.S. in Data Science  
