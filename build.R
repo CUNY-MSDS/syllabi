@@ -8,7 +8,7 @@ build_syllabi(c(core_courses, 'DATA622', 'DATA624'),
 			  semester = 'Spring', year = 2021)
 
 # Summer 2021
-build_syllabi(c('DATA624', 'DATA612', 'DATA620', 'DATA604),
+build_syllabi(c('DATA624', 'DATA612', 'DATA620', 'DATA604'),
 			  semester = 'Summer', year = 2021)
 
 # Fall 2021
