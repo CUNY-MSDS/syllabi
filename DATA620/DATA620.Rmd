@@ -1,0 +1,80 @@
+---
+title:  |
+  ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
+  DATA XXX COURSE TITLE
+author: "CUNY SPS Master of Science in Data Science"
+date: "`r paste(params$semester, params$year)`"
+geometry: margin=0.75in
+output:
+  html_document:
+    toc: false
+    keep_md: true
+  pdf_document: default
+editor_options: 
+  chunk_output_type: console
+params:
+  semester: "SEMESTER"
+  year: "YEAR"
+---
+
+```{r setup, echo=FALSE, warning = FALSE, message = FALSE, error = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE, message = FALSE, error = FALSE, 
+  fig.width = 6.5, fig.height=4, fig.align = 'center',
+  digits = 3) 
+```
+
+**Instructor Name:**  
+**Instructor Email:**  
+**Class Meetup:**   
+**Office Hours:**   
+**Degree Program:** M.S. in Data Science  
+**Credits:** 3 graduate credits  
+**Prerequisites:** None  
+**Type of Course:** Required course  
+
+
+### Course Description
+
+
+
+### Course Learning Outcomes:
+
+
+
+### Program Learning Outcomes addressed by the course:
+
+
+
+### How is this course relevant for data analytics professionals?
+
+
+
+### Grading
+
+
+
+```{r, child='../includes/grade_distribution.md'}
+```
+
+### Schedule
+
+*Note: Schedule is subject to change.*
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
+source('../build_schedule.R')
+build_schedule('DATA620.csv', year = params$year, semester = params$semester)
+```
+
+```{r, child='../includes/accessibility.md'}
+```
+
+```{r, child='../includes/online_etiquette.md'}
+```
+
+```{r, child='../includes/academic_integrity.md'}
+```
+
+```{r, child='../includes/support_services.md'}
+```
