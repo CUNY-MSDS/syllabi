@@ -10,7 +10,11 @@ build_schedule <- function(infile, year, semester,
 	tab <- NULL
 
 	# TODO: Print a warning if there are overlapping modules
-	course_schedule <- readxl::read_excel(infile)
+	if(tolower(tools::file_ext(infile)) == 'csv') {
+		course_schedule <- read.csv(infile)
+	} else {
+		course_schedule <- readxl::read_excel(infile)
+	}
 
 	if(!all(c('Week', 'Duration', 'Topic') %in% names(course_schedule))) {
 		stop(paste0(infile, ' must contain the following columns: Week, Duration, and Topic'))

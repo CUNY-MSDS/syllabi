@@ -1,0 +1,16 @@
+﻿Week,Duration,Topic,Core Readings,Deliverables
+1,1,Building out your Data Science Development Environment;,"Data Science for Business, chapter 1",Week 1 Assignment
+2,1,R: Data Types and Basic Operations,"Data Science for Business, chapter 2",Week 2 Assignment
+3,1,R and SQL,"Data Science for Business, chapter 3",Week 3 Assignment
+4,1,R: Character Manipulation and Date Processing,"Data Science for Business, chapter 4",Project 1
+5,1,R: Exploratory Data Analysis; Data Imputation,"Data Science for Business, chapter 5",Week 5 Assignment
+6,1,R: Working with Tidy Data,"Data Science for Business, chapter 6",Project 2
+7,1,R: Data Transformations; Feature Engineering,"Data Science for Business, chapter 7",Week 7 Assignment
+8,1,Web Technologies; MongoDB,"Data Science for Business, chapter 8",Project 3
+9,1,Scraping Web Pages,"Data Science for Business, chapter 9",Week 9 Assignment; Tidyverse Recipes Initial Post due
+10,1,Working with Web APIs,"Data Science for Business, Chapter 10",Week 10 Assignment; Tidyverse Recipes Initial Post Peer Grading due
+11,1,Text Mining,"Data Science for Business, chapter 11",Week 11 Assignment
+12,1,Recommender Systems,"Data Science for Business, chapter 12",Project 4; Final Project Proposals due; Data Science in Context presentations due for students opting to make recorded versions
+13,1,Graph Databases,"Data Science for Business, chapters 13 and 14",Work on final projects and presentations; Tidyverse Recipes Extension Peer Grading due
+14,1,Working with Data in the Cloud; Hadoop and Spark,"Data Science for Business, Appendices A and B",Work on final projects and presentations
+15,1,Big Data Analytics; Automated Machine Learning,No readings,Final Project Presentations
