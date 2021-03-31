@@ -91,7 +91,7 @@ The culmination of the course will be the presentation of the analysis of a data
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
 source('../build_schedule.R')
-build_schedule('DATA606.xlsx', year = params$year, semester = params$semester)
+build_schedule('DATA606.csv', year = params$year, semester = params$semester)
 ```
 
 ```{r, child='../includes/accessibility.md'}
