@@ -1,15 +1,15 @@
 ﻿Week,Duration,Topic,Reading,Homework
-1,1,Welcome and Introductions,HA Ch.1-2
-2,1,Time Series,HA Ch.3,HA 3.1-3.3 3.8
-3,1,Forecasting,HA Ch.6,HA 6.2 6.3
-4,1,Decomposition,HA Ch. 6,HA 6.2 6.3
-5,1,Data Preprocessing/Overfitting,KJ Ch. 3-4,KJ 3.1 3.2
-6,1,Exponential Smoothing,HA Ch. 7,HA 7.1 7.5-7.9
-7,2,ARIMA,HA Ch. 8,HA 8.1-8.3 8.5-8.7
-8,1,ARIMA,
+1,1,Welcome and Introductions,NONE,NONE
+2,1,Time Series,HA Ch.1-2,HA 2.1-2.3 2.6
+3,1,Forecasting,HA Ch.3,HA 3.1-3.3 3.8
+4,1,Decomposition,HA Ch.6,HA 6.2 6.3
+5,1,Data Preprocessing/Overfitting,KJ Ch.3-4,KJ 3.1 3.2
+6,1,Exponential Smoothing,HA Ch.7,HA 7.1 7.5-7.9
+7,2,ARIMA,HA Ch.8,HA 8.1-8.3 8.5-8.7
+8,1,ARIMA,HA Ch.8,HA 8.1-8.3 8.5-8.7
 9,1,Project 1,NONE,NONE
-10,1,Linear Regression,KJ Ch. 6,KJ 6.3
-11,1,Non-linear Regression,KJ Ch. 7,KJ 7.2 7.5
-12,1,Trees and Rules,KJ Ch. 8,KJ 8.1-8.3 8.7
+10,1,Linear Regression,KJ Ch.6,KJ 6.3
+11,1,Non-linear Regression,KJ Ch.7,KJ 7.2 7.5
+12,1,Trees and Rules,KJ Ch.8,KJ 8.1-8.3 8.7
 13,1,Recommender Systems,Articles,Rules HW
 14,1,Project 2,NONE,NONE
