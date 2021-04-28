@@ -1,7 +1,8 @@
-﻿Week,Duration,Topic
-1,1,Week 1
-2,1,Week 2
-3,1,Week 3
+﻿Week,Duration,Topics,Readings,Deliverables
+1,1,Set up Environment Supplementary materials on Gephi,Environment Setup
+2,1,Network Analysis: Overview Text Mining Overview	Natural Language Processing with Python Chapters 1 and 2 Social Network Analysis for Startups Chapter 1
+Supplementary materials on iGraph package,Week 2 Assignment
+3,1,Network Analysis Graph Theory Definitions,Social Network Analysis for Startups Chapter 2 Supplementary material on Graph Theory,Week 3 Assignment
 4,1,Week 4
 5,1,Week 5
 6,1,Week 6
