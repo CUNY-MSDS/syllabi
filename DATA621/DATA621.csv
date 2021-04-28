@@ -1,7 +1,7 @@
 ﻿Week,Duration,Topic,Key Tasks
 1,1,Introduction to Applied Regression Modeling,Discussion # 1 due
 2,1,Simple Linear Regression Estimation,Discussion # 2 due
-3,1,,Simple Linear Regression: Inference, Prediction,Discussion # 3 due  Homework # 1 assigned
+3,1,Simple Linear Regression: Inference, Prediction,Discussion # 3 due  Homework # 1 assigned
 4,1,Simple Linear Regression: Explanation, Diagnostics and Transformation,Discussion # 4 due
 5,1,Multiple Linear Regression and Missing Data,Discussion # 5 due Homework #1 due Homework # 2 assigned
 6,1,Multiple Linear Regression: Model Diagnostics and transformations,Discussion # 6 due
@@ -11,7 +11,6 @@
 10,1,Weighted Least Squares and Robust Regression,Discussion # 10 due Homework #3 due Homework #4 assigned
 11,1,Generalized Least Squares,Discussion # 12 due Project assigned Form project teams
 12,1,Multinomial Logistic Regression,Discussion # 13 due Homework #4 due Homework #5 assigned
-13,1,Thanksgiving Break,None
 14,1,Generalized Linear Models,Discussion # 14 due
 15,1,Panel Regression: Repeated Measure and Longitudinal Data,Discussion # 15 due
 16,1,Nonparametric regression,Discussion # 16 due Homework # 5 due
