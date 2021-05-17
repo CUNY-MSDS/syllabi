@@ -152,7 +152,7 @@ You are encouraged to ask questions on the "Ask Your Instructor" forum on the co
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
 source('../build_schedule.R')
 build_schedule('DATA607.csv', year = params$year, semester = params$semester,
-               cols = c('Dates', 'Topic',	'Core Readings',	'Deliverables'))
+               cols = c('Topic',	'Core Readings',	'Deliverables'))
 ```
 
 ```{r, child='../includes/accessibility.md'}

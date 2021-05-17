@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA XXX COURSE TITLE
+  DATA 621 Business Analytics and Data Mining
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
@@ -25,8 +25,8 @@ knitr::opts_chunk$set(
   digits = 3) 
 ```
 
-**Instructor Name:**  Nasrin Khansari
-**Instructor Email:**  nasrin.khansari@sps.cuny.edu
+**Instructor Name:**  Nasrin Khansari  
+**Instructor Email:**  nasrin.khansari@sps.cuny.edu  
 **Class Meetup:**   
 **Office Hours:**   
 **Degree Program:** M.S. in Data Science  
