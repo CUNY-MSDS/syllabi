@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA XXX COURSE TITLE
+  DATA 605 COURSE TITLE
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
@@ -25,8 +25,8 @@ knitr::opts_chunk$set(
   digits = 3) 
 ```
 
-**Instructor Name:**  
-**Instructor Email:**  
+**Instructor Name:**  Lawrence Fulton
+**Instructor Email:** lawrence.fulton@sps.cuny.edu
 **Class Meetup:**   
 **Office Hours:**   
 **Degree Program:** M.S. in Data Science  
@@ -36,19 +36,61 @@ knitr::opts_chunk$set(
 
 
 ### Course Description
+The course will provide an overview of the commonly used mathematical techniques in Data Analytics & Statistics. A lot of emphasis will be given to computational techniques and implementing math in programs. Students will be expected to do a fair bit of hands-on programming. We’ll be primarily using R as our programming environment. All assignments will need to be submitted in as R-Markdown documents. Students can expect to walk away with a good under- standing of the kinds of math they’ll need to be successful in the exciting area of Data Analytics
 
 
-
-### Course Learning Outcomes:
-
+### Course Learning Objectives:
+1.	Apply linear algebra to solve data science problems.
+2.	Apply probability and statistics to solve data science problems.
+3.	Apply univariate and multivariate calculus to solve data science problems.
 
 
 ### Program Learning Outcomes addressed by the course:
+1.	Business Understanding. Apply frameworks and processes to build data-analytic solutions from an understanding of business goals.
+2.	Data Programming. Use industry standard statistical tools and simulation packages.
+3.	Foundational Math and Statistics. Emphasis on probability, statistics, and computational methods.
+4.	Data Understanding. Collect, describe, model, explore and verify data.
+5.	Prescriptive Modeling. Selecting prescriptive modeling techniques, generating test designs, building and assessing models.
+6.	Model Implementation and Deployment. Students will learn to implement mathematical models.
+7.	Presentation. Students will deliver presentations of their project results.
 
 
 
-### How is this course relevant for data analytics professionals?
+### Assignments and grading:
+1.	Assignments:   During the course, you will be completing a series of individual assignments, participating in forum discussions, and completing a final examination.
+2.	Examinations:  This course has a single examination, a comprehensive final.
+3.	Grade Evaluation:  Grades in this course are determined by the percentage of points obtained.
 
+Assignment,Percentage
+Homework,15x3% = 45%
+Discussions Contribution,15x 1%= 15%
+Examination,1x 40%= 40%
+Total,100%
+
+### Grading Rubric:
+1.	Each homework will be graded as {zero, check minus, check, and check plus}. The associated grades are {0%, 1%, 2%, 3%}.
+2.	Discussions are applied analysis from the texts.  You must post a response by Wednesday at midnight (ET) and respond to at least one of your colleagues’ contributions by Saturday at midnight (ET), providing meaningful feedback on the analysis.
+
+###  Late Policy for Homework:
+Late work is penalized 20% per day. All assignment due dates and times are shown in Blackboard.
+
+### Course materials all open Source:
+Introduction to Probability, Grinstead, C. Snell, J., 1997 
+
+A First Course in Linear Algebra, Beezer, R., 2008 
+
+Linear Regression Using R:  An Introduction to Data Modeling, Lilja, D., 2016 
+
+APEX Calculus, Hartman, G. 2014 
+
+### Relevant Software and Other Tools: 
+Students should have R Studio & R installed in their computers. Relevant libraries that are required will be posted in the assignments and course materials. Students are expected to submit R-Markdown files for their assignments. 
+
+###  Course Meeting Time: 
+See the course website. 
+
+###  The Course schedule follows. 
+(L=Linear Algebra text, P=Probability Text, C=Calculus Text, R=Regression)
 
 
 ### Grading
