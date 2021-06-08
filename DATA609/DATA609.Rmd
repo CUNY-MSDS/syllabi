@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA XXX COURSE TITLE
+  DATA 609 COURSE TITLE
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
@@ -25,31 +25,50 @@ knitr::opts_chunk$set(
   digits = 3) 
 ```
 
-**Instructor Name:**  
-**Instructor Email:**  
+**Instructor Name:**  Dr. Harry Wang
+**Instructor Email:**  haiyuan.wang@sps.cuny.edu
 **Class Meetup:**   
 **Office Hours:**   
 **Degree Program:** M.S. in Data Science  
 **Credits:** 3 graduate credits  
-**Prerequisites:** None  
-**Type of Course:** Required course  
+**Prerequisites:** DATA 605 DATA 606  
+**Type of Course:** Elective course  
 
 
-### Course Description
-
-
+### Course Description:
+Many problems in data mining and machine learning can be formulated as optimization problems. Therefore, optimization and algorithms are closely related to data mining and machine learning. In this course, students will learn mathematical and optimization algorithms for data mining and machine learning. Major data mining and machine learning algorithms will be studied from optimization perspective. These major algorithms include data fitting and regression, decision trees and random forest, logistic regression, clustering and classification, support vector machines, neural networks, and deep learning. In addition, students will be expected to explain their models, reports, and analyses in plain and easy-to-understand language.
 
 ### Course Learning Outcomes:
+By the end of the course, students should be able to:
+* Understand major data mining and machine learning algorithms from optimization perspective
+*	Be able to formulate these optimization problems; understand and know solution algorithms.
+*	Learn how to use optimization tools.
+*	Program Learning Outcomes addressed by the course:
+*	Business Understanding. Apply frameworks and processes to build out data analytics solutions from understanding of business goals.
+*	Solid foundational data programming skills, using industry standard tools, essential algorithms, and design patterns for working with structured data, unstructured data and big data.
+*	Solid foundational math and statistics skills, with emphasis on linear algebra, probability, Bayesian statistics, and numerical methods.
+*	Data understanding. Collect, describe, model, explore and verify data.
+*	Data preparation. Selecting, cleaning, constructing, integrating, and formatting data.
+*	Optimization Modeling. Selecting optimization modeling techniques, generating test designs, building and assessing models.
+*	Model implementation and deployment.
+*	Presentation. Evaluating and communicating results.
 
 
+### Required texts and materials:
+Introduction to Algorithms for Data Mining and Machine Learning, 1st Edition. Xin-She Yang. ISBN: 978-0-12-817216-2
 
-### Program Learning Outcomes addressed by the course:
+###  Relevant Software Hardware and other tools:
+Course will be using R for some of the computational homework and projects.
 
-
+###  Please download and install R from here:
+http://cran.r-project.org/
+Use below two links as reference for your R programming
+https://www.edx.org/course/introduction-to-r-for-data-science-2
+https://r4ds.had.co.nz/index.html
+You are encouraged to ask me questions on the “Ask Your Instructor” forum on the course discussion board where other students will be able to benefit from your inquiries
 
 ### How is this course relevant for data analytics professionals?
-
-
+Math modeling and optimization technics are essential for data analytics problems. It is the foundation for some problems that we will come across in linear regression, machine learning, and data mining fields. With understanding of math modeling techniques, IS and Data Analytics professionals would be able to solve many more real problems more efficiently and effectively.
 
 ### Grading
 
