@@ -1,15 +1,9 @@
-﻿Week,Duration,Topic
-1,1,Week 1
-2,1,Week 2
-3,1,Week 3
-4,1,Week 4
-5,1,Week 5
-6,1,Week 6
-7,1,Week 7
-8,1,Week 8
-9,1,Week 9
-10,1,Week 10
-11,1,Week 11
-12,1,Week 12
-13,1,Week 13
-14,1,Week 14
+﻿Week,Duration,Topic,Reading,HW
+1,2,Introduction to Optimization in Data Mining and Machine Learning,CH1 L1 L2,HW1
+2,2,Mathematical Foundations,Ch.2 L1 L2,HW2
+3,2,Optimization Algorithms,Ch.3 L1 L2,HW3
+4,2,Data Fitting and Regression,Ch.4 L1 L2,HW4
+5,2,Logistic Regressions PCA LDA and ICA,Ch.5 L1 L2 L3 L4,HW5
+6,2,Data Mining Techniques,Ch.6 L1 L2 L3 L4,HW6
+7,2,Support Vector Machine and Regressions,Ch.7 L1 Ch.8 L1 Section 8.1 8.2 8.3 8.4,HW7
+8,1,Neural Networks and Deep Learning,Ch.8 L2 L3,HW8
