@@ -13,20 +13,27 @@ Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
 ### Fall 2021
 
 -   [DATA 602 Advanced Programming
-    Techniques](docs/2021Fall/DATA602-2021-Fall.pdf)
--   [DATA 605 COURSE TITLE](docs/2021Fall/DATA605-2021-Fall.pdf)
+    Techniques](docs/2021Fall/DATA602-01-2021-Fall.pdf)
+-   [DATA 602 Advanced Programming
+    Techniques](docs/2021Fall/DATA602-02-2021-Fall.pdf)
+-   [DATA 605 Fundamentals of Computational
+    Mathematics](docs/2021Fall/DATA605-2021-Fall.pdf)
 -   [DATA 606 Statistics & Probability for Data
     Analytics](docs/2021Fall/DATA606-2021-Fall.pdf)
 -   [DATA 607 Data Acquisition and
     Management](docs/2021Fall/DATA607-2021-Fall.pdf)
--   [DATA XXX COURSE TITLE](docs/2021Fall/DATA608-2021-Fall.pdf)
--   [DATA 609 COURSE TITLE](docs/2021Fall/DATA609-2021-Fall.pdf)
--   [DATA XXX COURSE TITLE](docs/2021Fall/DATA620-2021-Fall.pdf)
+-   [DATA 608 Knowledge and Visual
+    Analytics](docs/2021Fall/DATA608-2021-Fall.pdf)
+-   [DATA 609 Mathematical Modeling Techniques for Data
+    Analytics](docs/2021Fall/DATA609-2021-Fall.pdf)
+-   [DATA 620 Web Analytics](docs/2021Fall/DATA620-2021-Fall.pdf)
 -   [DATA 621 Business Analytics and Data
     Mining](docs/2021Fall/DATA621-2021-Fall.pdf)
--   [DATA XXX COURSE TITLE](docs/2021Fall/DATA622-2021-Fall.pdf)
+-   [DATA 622 Machine Learning and Big
+    Data](docs/2021Fall/DATA622-2021-Fall.pdf)
 -   [DATA 624 Predictive Analytics](docs/2021Fall/DATA624-2021-Fall.pdf)
--   [DATA XXX COURSE TITLE](docs/2021Fall/DATA698-2021-Fall.pdf)
+-   [DATA 698 Analytics Master’s Research
+    Project](docs/2021Fall/DATA698-01-2021-Fall.pdf)
 
 ### Spring 2021
 

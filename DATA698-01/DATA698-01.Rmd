@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA 608 Knowledge and Visual Analytics
+  DATA 698 Analytics Master's Research Project
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
@@ -64,7 +64,7 @@ knitr::opts_chunk$set(
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
 source('../build_schedule.R')
-build_schedule('DATA608.csv', year = params$year, semester = params$semester)
+build_schedule('DATA698-01.csv', year = params$year, semester = params$semester)
 ```
 
 ```{r, child='../includes/accessibility.md'}

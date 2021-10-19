@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA XXX COURSE TITLE
+  DATA 622 Machine Learning and Big Data
 author: "CUNY SPS Master of Science in Data Science"
 date: "Fall 2021"
 geometry: margin=0.75in

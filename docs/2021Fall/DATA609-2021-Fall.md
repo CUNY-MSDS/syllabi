@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA 609 COURSE TITLE
+  DATA 609 Mathematical Modeling Techniques for Data Analytics
 author: "CUNY SPS Master of Science in Data Science"
 date: "Fall 2021"
 geometry: margin=0.75in

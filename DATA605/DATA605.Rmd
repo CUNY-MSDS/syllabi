@@ -1,7 +1,7 @@
 ---
 title:  |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
-  DATA 605 COURSE TITLE
+  DATA 605 Fundamentals of Computational Mathematics
 author: "CUNY SPS Master of Science in Data Science"
 date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
