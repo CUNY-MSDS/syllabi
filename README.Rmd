@@ -33,7 +33,7 @@ for(j in 1:nrow(semesters)) {
 						  pattern = paste0(year, '-', semester, '.html'))
 	courses <- substr(courses, 1, 7)
 
-	cat(paste0('### ', semester, ' ', year, '\n\n'))
+	cat(paste0('\n\n### ', semester, ' ', year, '\n\n'))
 	
 	for(i in courses) {
 		y <- yaml_front_matter(paste0(i, '/', i, '.Rmd'))

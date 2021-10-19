@@ -64,7 +64,8 @@ knitr::opts_chunk$set(
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
 source('../build_schedule.R')
-build_schedule('DATA620.csv', year = params$year, semester = params$semester)
+build_schedule('DATA620.csv', year = params$year, semester = params$semester,
+			   cols = c('Topic', 'Readings', 'Deliverables'))
 ```
 
 ```{r, child='../includes/accessibility.md'}

@@ -2,7 +2,7 @@
 title: |
   ![CUNY SPS Logo](../includes/SPS1line_blue.jpg){width=6.5in}  
   DATA 607 Data Acquisition and Management
-date: "`r paste(params$semester, params$year)`"
+date: "Fall 2021"
 geometry: margin=0.75in
 output:
   html_document:
@@ -16,13 +16,7 @@ params:
   year: "YEAR"
 ---
 
-```{r setup, echo=FALSE, warning = FALSE, message = FALSE, error = FALSE}
-knitr::opts_chunk$set(
-  echo = FALSE,
-  warning = FALSE, message = FALSE, error = FALSE, 
-  fig.width = 6.5, fig.height=4, fig.align = 'center',
-  digits = 3) 
-```
+
 
 **Instructor Name:** Andrew Catlin  
 **Instructor Email:** [andrew.catlin@sps.cuny.edu](mailto:andrew.catlin@sps.cuny.edu)  
@@ -79,8 +73,19 @@ Most data analytics professionals spend most of their time getting data and prep
 | **TOTAL**                                      | **100%**  |
 
 
-```{r, child='../includes/grade_distribution.md'}
-```
+
+#### Grade Distribution
+
+Quality of Performance                     | Letter Grade | Range %   | GPA  |
+-------------------------------------------|:------------:|:---------:|:----:|
+Excellent - work is of exceptional quality |      A       | 93 - 100  |  4   |
+Excellent                                  |      A-      | 90 - 92.9 | 3.7  |
+Good - work is above average               |      B+      | 87 - 89.9 | 3.3  |
+Satisfactory                               |      B       | 83 - 86.9 |  3   |
+Below Average                              |      B-      | 80 - 82.9 | 2.7  |
+Poor                                       |      C+      | 77 - 79.9 | 2.3  |
+Poor                                       |      C       | 70 - 76.9 |  2   |
+Failure                                    |      F       |   < 70    |  0   |
 
 ### Notes
 
@@ -106,9 +111,7 @@ Late projects are not accepted. However, there are eight assignments and four pr
 
 ### Course Learning Materials
 
-```{r, echo=FALSE}
-knitr::include_graphics('textbooks.png')
-```
+<img src="textbooks.png" width="904" style="display: block; margin: auto;" />
 
 #### Textbooks: 
 
@@ -149,20 +152,111 @@ You are encouraged to ask questions on the "Ask Your Instructor" forum on the co
 
 *Note: Schedule is subject to change.*
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
-source('../build_schedule.R')
-build_schedule('DATA607.csv', year = params$year, semester = params$semester,
-               cols = c('Topic', 'Core.Readings', 'Deliverables'))
-```
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Topic </th>
+   <th style="text-align:left;"> Core.Readings </th>
+   <th style="text-align:left;"> Deliverables </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Building out your Data Science Development Environment; </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 1 </td>
+   <td style="text-align:left;"> Week 1 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R: Data Types and Basic Operations </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 2 </td>
+   <td style="text-align:left;"> Week 2 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R and SQL </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 3 </td>
+   <td style="text-align:left;"> Week 3 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R: Character Manipulation and Date Processing </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 4 </td>
+   <td style="text-align:left;"> Project 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R: Exploratory Data Analysis; Data Imputation </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 5 </td>
+   <td style="text-align:left;"> Week 5 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R: Working with Tidy Data </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 6 </td>
+   <td style="text-align:left;"> Project 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> R: Data Transformations; Feature Engineering </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 7 </td>
+   <td style="text-align:left;"> Week 7 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Web Technologies; MongoDB </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 8 </td>
+   <td style="text-align:left;"> Project 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Scraping Web Pages </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 9 </td>
+   <td style="text-align:left;"> Week 9 Assignment; Tidyverse Recipes Initial Post due </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Working with Web APIs </td>
+   <td style="text-align:left;"> Data Science for Business, Chapter 10 </td>
+   <td style="text-align:left;"> Week 10 Assignment; Tidyverse Recipes Initial Post Peer Grading due </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Text Mining </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 11 </td>
+   <td style="text-align:left;"> Week 11 Assignment </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Recommender Systems </td>
+   <td style="text-align:left;"> Data Science for Business, chapter 12 </td>
+   <td style="text-align:left;"> Project 4; Final Project Proposals due; Data Science in Context presentations due for students opting to make recorded versions </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Graph Databases </td>
+   <td style="text-align:left;"> Data Science for Business, chapters 13 and 14 </td>
+   <td style="text-align:left;"> Work on final projects and presentations; Tidyverse Recipes Extension Peer Grading due </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Working with Data in the Cloud; Hadoop and Spark </td>
+   <td style="text-align:left;"> Data Science for Business, Appendices A and B </td>
+   <td style="text-align:left;"> Work on final projects and presentations </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Big Data Analytics; Automated Machine Learning </td>
+   <td style="text-align:left;"> No readings </td>
+   <td style="text-align:left;"> Final Project Presentations </td>
+  </tr>
+</tbody>
+</table>
 
-```{r, child='../includes/accessibility.md'}
-```
 
-```{r, child='../includes/online_etiquette.md'}
-```
+### Accessibility and Accommodations
 
-```{r, child='../includes/academic_integrity.md'}
-```
+The CUNY School of Professional Studies is firmly committed to making higher education accessible to students with disabilities by removing architectural barriers and providing programs and support services necessary for them to benefit from the instruction and resources of the University. Early planning is essential for many of the resources and accommodations provided. Please see: [http://sps.cuny.edu/student_services/disabilityservices.html](http://sps.cuny.edu/student_services/disabilityservices.html)
 
-```{r, child='../includes/support_services.md'}
-```
+
+### Online Etiquette and Anti-Harassment Policy
+
+The University strictly prohibits the use of University online resources or facilities, including Blackboard, for the purpose of harassment of any individual or for the posting of any material that is scandalous, libelous, offensive or otherwise against the University’s policies.  Please see: [http://media.sps.cuny.edu/filestore/8/4/9_d018dae29d76f89/849_3c7d075b32c268e.pdf](http://media.sps.cuny.edu/filestore/8/4/9_d018dae29d76f89/849_3c7d075b32c268e.pdf)
+
+
+### Academic Integrity
+
+Academic dishonesty is unacceptable and will not be tolerated. Cheating, forgery, plagiarism and collusion in dishonest acts undermine the educational mission of the City University of New York and the students' personal and intellectual growth. Please see: [http://media.sps.cuny.edu/filestore/8/3/9_dea303d5822ab91/839_1753cee9c9d90e9.pdf](http://media.sps.cuny.edu/filestore/8/3/9_dea303d5822ab91/839_1753cee9c9d90e9.pdf)
+
+
+### Student Support Services
+
+If you need any additional help, please visit Student Support Services:
+[http://sps.cuny.edu/student_resources/](http://sps.cuny.edu/student_resources/)
+

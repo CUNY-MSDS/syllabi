@@ -1,6 +1,6 @@
 source('build_syllabi.R')
 
-core_courses <- c('DATA606', 'DATA607', 'DATA608', 'DATA602', 'DATA605', 'DATA621', 'DATA698')
+core_courses <- c('DATA602', 'DATA605', 'DATA606', 'DATA607', 'DATA608', 'DATA621', 'DATA698')
 
 # Spring 2021
 # 622, 624, 609, 620
@@ -12,6 +12,8 @@ build_syllabi(c('DATA624', 'DATA612', 'DATA620', 'DATA604'),
 			  semester = 'Summer', year = 2021)
 
 # Fall 2021
-build_syllabi(c('DATA606', 'DATA621', 'DATA624'),
+build_syllabi(c(core_courses, 'DATA609', 'DATA620', 'DATA622', 'DATA624'),
 			  semester = 'Fall', year = 2021)
+
+# Spring 2022
 

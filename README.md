@@ -3,8 +3,30 @@ Syllabi for courses in the CUNY SPS Master’s of Data Science program
 
 [CUNY SPS MSDS
 Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
+\* [Spring
+2021](https://sps.cuny.edu/academics/academic-calendar/2020-2021-calendar/spring-2021)
+\* [Fall
+2021](https://sps.cuny.edu/academics/academic-calendar/2021-2022-calendar/fall-2021)
 
 ## Syllabi by Semester
+
+### Fall 2021
+
+-   [DATA 602 Advanced Programming
+    Techniques](docs/2021Fall/DATA602-2021-Fall.pdf)
+-   [DATA 605 COURSE TITLE](docs/2021Fall/DATA605-2021-Fall.pdf)
+-   [DATA 606 Statistics & Probability for Data
+    Analytics](docs/2021Fall/DATA606-2021-Fall.pdf)
+-   [DATA 607 Data Acquisition and
+    Management](docs/2021Fall/DATA607-2021-Fall.pdf)
+-   [DATA XXX COURSE TITLE](docs/2021Fall/DATA608-2021-Fall.pdf)
+-   [DATA 609 COURSE TITLE](docs/2021Fall/DATA609-2021-Fall.pdf)
+-   [DATA XXX COURSE TITLE](docs/2021Fall/DATA620-2021-Fall.pdf)
+-   [DATA 621 Business Analytics and Data
+    Mining](docs/2021Fall/DATA621-2021-Fall.pdf)
+-   [DATA XXX COURSE TITLE](docs/2021Fall/DATA622-2021-Fall.pdf)
+-   [DATA 624 Predictive Analytics](docs/2021Fall/DATA624-2021-Fall.pdf)
+-   [DATA XXX COURSE TITLE](docs/2021Fall/DATA698-2021-Fall.pdf)
 
 ### Spring 2021
 
@@ -12,6 +34,10 @@ Website](https://sps.cuny.edu/academics/graduate/master-science-data-science-ms)
     Analytics](docs/2021Spring/DATA606-2021-Spring.pdf)
 -   [DATA 607 Data Acquisition and
     Management](docs/2021Spring/DATA607-2021-Spring.pdf)
+-   [DATA 621 Business Analytics and Data
+    Mining](docs/2021Spring/DATA621-2021-Spring.pdf)
+-   [DATA 624 Predictive
+    Analytics](docs/2021Spring/DATA624-2021-Spring.pdf)
 
 ## Notes for Instructors
 
